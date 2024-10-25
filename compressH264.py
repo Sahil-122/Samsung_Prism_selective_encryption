@@ -2,8 +2,8 @@ import ffmpeg
 import numpy as np
 
 # Define input and output paths
-input_path = 'San Andreas/gtaSA.h264'  # Input is an MP4 file
-output_path = 'San Andreas/compressed_SA.h264'  # Output is now an H.264 file
+input_path = 'San Andreas/gtaSA.h264'  
+output_path = 'San Andreas/compressed_SA.h264'  
 
 # Probe the input video to get metadata
 probe = ffmpeg.probe(input_path)
